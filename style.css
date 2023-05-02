@@ -1,0 +1,116 @@
+html{
+    font-family: Karla;
+    font-size:15px;
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body{
+    padding: 30px;
+    
+  }
+  
+  #card {
+    height: 400px;
+    width: 600px; 
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.55);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #header_container{
+    height: 45%;
+    width: 100%;
+    
+    padding: 40px;
+  }
+  
+  #footer_container{
+    height: 55%;
+    width: 100%; 
+    color: white;
+  }
+  
+  #leftfooter_container{
+    height: 100%;
+    width: 50%;
+    
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  #rightfooter_container{
+    height: 100%;
+    width: 50%;
+    
+    display: inline-block;
+    vertical-align: top;
+    background-color: #67BFBE;
+    padding: 25px;
+  }
+  
+  #header_container h2{
+    
+    padding-bottom: 15px;
+    color: #2ab2af;
+  }
+  
+  #header_container h4{
+    padding-bottom: 10px;
+    color: #c0df34;
+  }
+  
+  #header_container p{
+    color: #98a6bd;
+  }
+  
+  #price, #per_time{
+    display: inline-block;
+    padding-top: 30px;
+  }
+  
+  #price{
+    font-size: 2rem;
+  }
+  
+  #per_time{
+    position: relative;
+    top: -5px;
+    padding-left: 8px;
+    opacity: 75%;
+    margin-bottom: 20px;
+  }
+  
+  #signup{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  #rightfooter_container h4{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  ul{
+    padding: 0;
+    list-style: none;
+    opacity: 0.9;
+  }
+  
+  #signup:hover{
+    background-color: yellow;
+    transform: scale (1.1);
+    cursor: pointer;
+  }
+  
